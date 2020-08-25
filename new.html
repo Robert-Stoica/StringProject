@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="new.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<p>dasdas</p>
+		<section class="top-board">
+			<div class="initial-panel">
+				<label for="initial">Introduce un text aici</label>
+				<textarea class="field op" id="initial" placeholder="Scrie o propozitie, fraza sau cuvant aici."></textarea>
+				<input type="submit" class="initial-submit-btn btn" value="trimite">
+			</div>
+			<div class="result-panel">
+				<label for="final">Rezultatul</label>
+				<input type="text" class="field" id="final">
+			</div>	
+		</section>
+
+
+
+		<section class="sort-items-panel">
+			<div class="search-method">
+				<label for="item-seach">Cauta obtiuni de functii</label>
+				<input type="text" class="list-search field" id="myInput" placeholder="scrie o categorie...">
+				
+			</div>
+			<div class="category-method">
+				<h2>Alege categorie</h2>
+				<div class="catgs-sort-items">
+					<button class="search-type btn sort-btn">Cautare</button>
+					<button class="extractp-type btn sort-btn">Extragere parte</button>
+					<button class="replace-type btn sort-btn">Inlocuire</button>
+					<button class="converting-type btn sort-btn">Convertire</button>
+					<button class="extractc-type btn sort-btn">Extragere caracter</button>
+				</div>
+			</div>
+		</section>
+
+		<ul class="control-panel" id="myUL">		
+			<li class="search control-opt">
+				<a class="function-title">Cautare prima</a>
+				<label for="search-input">Arata pozitia  primei aparitii a unui cuvant din textul scris</label>
+				<input type="text" class="field op" id="search-input" placeholder="scrie cuvant">
+				<input type="submit" class="search-submit-btn op-btn btn" value="Proceseaza">
+			</li>
+			<li class="slice control-opt">
+				<a class="function-title">Extragere</a>
+				<label for="search-input">Extrage o parte dintre 2 puncte si afiseaz-o (poz. de inceput 0)</label>
+				<div class="container">
+					<input type="text" class="field op" id="slice-input1" placeholder="ex. 2">
+					<span>TO</span>
+					<input type="text" class="field op" id="slice-input2" placeholder="ex. 7">	
+				</div>
+				<input type="submit" class="slice-submit-btn op-btn btn" value="Proceseaza"> 
+			</li>
+			<li class="search searchlast control-opt">
+				<a class="function-title">Cautare ultima</a>
+				<label for="search-last-input">Arata pozitia ultimei aparitii unui cuvant din textul scris</label>
+				<input type="text" class="field op" id="search-last-input" placeholder="scrie cuvant">
+				<input type="submit" class="searchLast-submit-btn op-btn btn" value="Proceseaza">
+			</li>
+			<li class="slice control-opt">
+				<a class="function-title">Inlocuire</a>
+				<label for="replace-input">Inlocuieste un cuvant din text cu altul la alagere</label>
+				<div class="container">
+					<input type="text" class="field op" id="replace-input1" placeholder="cuv.text">
+					<span>Chan ge</span>
+					<input type="text" class="field op" id="replace-input2" placeholder="cuv.inloc.">	
+				</div>
+				<input type="submit" class="replace-submit-btn op-btn btn" value="Proceseaza"> 
+			</li>
+			<li class="length control-opt">
+				<a class="function-title">Convertire</a>
+				<label for="search-input">Afiseaza numarul de caractere al textului, fara spatii</label>
+				<input type="submit" class="length-submit-btn op-btn btn" value="Proceseaza"> 
+			</li>
+		</ul>
+
+	</div>
+</body>
+ 
+</html>
+<script type="text/javascript" src="func.js"></script>
