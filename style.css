@@ -144,7 +144,7 @@ h2{
     display: grid;
     align-items: baseline;
 }
-.category-method p{
+.category-method  p{
 	margin: 5px 10px;
 }
 .sort-btn {
