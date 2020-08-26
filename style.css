@@ -130,6 +130,10 @@ h2{
     padding: 34px 0;
     border-bottom: 2px solid #eee;
 }
+.category-method-title{
+	display:flex;
+	flex-gap: 5px 10px;
+}
 .search-method label{
     grid-area: 1 / 1 / 1 / 1;
 }
