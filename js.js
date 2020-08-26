@@ -62,7 +62,7 @@ function initialized(e){
 			var firstValRep, scnValRep;
 			firstValRep = replaceInput1.value;
 			scnValRep = replaceInput2.value;
-			splice = tag.replace(/firstValRep/i, scnValRep);
+			splice = tag.replace(firstValRep, scnValRep);
 			result.value = splice;
 	};
 	if (item.classList[0] === "length-submit-btn") {
