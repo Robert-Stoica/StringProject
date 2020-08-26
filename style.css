@@ -140,12 +140,13 @@ h2{
 .list-search {
     grid-area: 1 / 2 / 1 / 3;
 }
-
 .category-method{
     display: grid;
-    grid-row-gap: 15px;
+    align-items: baseline;
 }
-
+.category-method p{
+	margin: 5px 10px;
+}
 .sort-btn {
     margin: 10px 10px 10px 0;
     padding: 10px 15px;
