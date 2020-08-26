@@ -179,9 +179,9 @@ h2{
     .search-method label, .search-method input, .search-method h2{
         grid-area:  unset; 
     }
-   
 }
-@media only screen and (max-width: 533px)
+
+@media only screen and (max-width: 533px){
 .wrap {
     	width: 100%;
 	background-color: red;
